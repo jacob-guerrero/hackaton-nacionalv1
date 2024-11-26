@@ -21,7 +21,7 @@ export default function Header() {
           </a>
 
           <a href="/">
-            <span className="text-xl font-bold text-gray-800">SmallApp</span>
+            <span className="text-xl font-bold text-gray-800">TrustCoffee</span>
           </a>
         </div>
 
