@@ -35,7 +35,9 @@
     --secondary-lighter-hex: theme("colors.secondary.200");
     --primary-dark-hex: theme("colors.primary.800");
     --secondary-dark-hex: theme("colors.secondary.800");
+    
   }
+  
 
   .dark {
     /* If you use Shadcn UI already, you can skip this block. */
