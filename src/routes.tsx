@@ -5,6 +5,7 @@ import ErrorPage from "./components/ErrorPage/ErrorPage";
 import Login from "./components/Login/Login";
 import Register from "./components/Register/Register";
 import Canjear from "./components/Canjear/Canjear";
+import Mapas from "./components/Mapas/Mapas";
 
 const routes: RouteObject[] = [
   {
@@ -25,7 +26,7 @@ const routes: RouteObject[] = [
       },
       {
         path: "mapas",
-        element: <mapas />,
+        element: <Mapas />,
       },
       {
         path: "register",

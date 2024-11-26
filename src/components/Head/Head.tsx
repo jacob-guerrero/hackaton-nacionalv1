@@ -12,7 +12,7 @@ export default function Header() {
       <div className="container mx-auto py-4 flex justify-between items-center">
         {/* Logo o nombre de la app */}
         <div className="flex items-center">
-          <a href="https://dc78-34-106-214-79.ngrok-free.app">
+          <a href="/">
             <img
               src={assets.logo}
               alt="Logo"
@@ -20,7 +20,7 @@ export default function Header() {
             />
           </a>
 
-          <a href="https://lookerstudio.google.com/reporting/461a9768-48d0-4dc4-abdc-628efe3b375c">
+          <a href="/">
             <span className="text-xl font-bold text-gray-800">SmallApp</span>
           </a>
         </div>
@@ -30,12 +30,15 @@ export default function Header() {
           <Link to="/" className="text-black-600 hover:text-black-800">
             Inicio
           </Link>
-          <a href="#" className="text-black-600 hover:text-black-800">
+          <a href="https://chatbin.streamlit.app/" className="text-black-600 hover:text-black-800">
             Usuario
           </a>
-          <Link to="/canjear" className="text-black-600 hover:text-black-800">
+          {/* <Link to="/canjear" className="text-black-600 hover:text-black-800">
             Productor
-          </Link>
+          </Link> */}
+          <a href="https://prediccion-cafe.streamlit.app/" className="text-black-600 hover:text-black-800">
+            Productor
+          </a>
 
           <Link to="/mapas" className="text-black-600 hover:text-black-800">
             Mapas
